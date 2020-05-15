@@ -68,7 +68,7 @@ class Ninja {
     debug(){
        console.log("Console.log() is my friend.")
     }
- }
+}
  // This is not making an instance of Ninja, for some reason:
  // ninja required to string parameters when none were given. Also needed to add new to the class call.
  const shane = new Ninja("shane","lame");
@@ -122,5 +122,6 @@ class Elephant {
     console.log(`Babar's age is ${babar.age}.`)
     }, 2000)
  // Why didn't babar's age change? Fix this by using an arrow function in the Elephant class.
- 
- 
+
+
+
